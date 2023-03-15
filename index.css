@@ -1,0 +1,127 @@
+@media (min-width: 600px) and (max-width: 768px) {
+   body {
+     background-color: whitesmoke;
+   }
+ }
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 25%;
+    }
+    .nav-bar li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 8px 10px;
+    }
+    .nav-bar-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFD600;
+    padding: 20px;
+    }
+    .nav-bar-2 button{
+    border-radius: 7px;
+    }
+    .nav-bar-2 input{
+    border-radius: 7px;
+    }
+    .lego-wars{
+    color: white;
+    background-color: black;
+    }
+    .lego-wars p1{
+    margin-left: 45%;
+    font-family: fantasy;
+    } 
+    .lego1{
+      border-style: inset;
+      border-color:grey;
+      border-radius: 10px;
+      width: 170px;
+      margin-bottom: 7%;
+    }
+    .movieset{
+        display: flex;
+     margin-top: -59%;
+     margin-left: 19%;
+     justify-content: space-between;
+    }
+    .heart1{margin-left: 97%;
+     }  
+     .circle1{
+        border-radius: 130px;
+     } 
+     .movieset1{
+      display: flex;
+      margin-left: 19%;
+      justify-content: space-between;
+      margin-top: 3%;
+     } 
+     .movieset2{
+      display: flex;
+   margin-left: 19%;
+   justify-content: space-between;
+   margin-top: 3%;
+     } 
+     .movieset3{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 19%;
+      margin-top: 3%;
+     } 
+
+     .movieset4{
+      display:flex;
+      margin-left: 19%;
+      justify-content: space-between;
+      margin-top: 3%;
+     }
+.bottom{
+   text-align: center;
+   margin-top: 7%;
+}
+.span{
+   border-style: ridge;
+   border-radius: 10px;
+   padding: 10px;
+   color: black;
+}
+
+.more{
+   margin: 45%;
+   margin-top: 7%;
+   font-size: 15px;
+   background-color: #FFD600;
+   padding: 1% 5%;
+   border-radius: 10px;
+}.footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.footer-div{
+   background-color: #26004C;
+   color: white;
+   padding: 2px 15px;
+   margin-top:-36%;
+   
+}
+.footer-2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}       
+
+@media only screen and(max-width:700px) {
+   .main{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+   }
+   
+}
+
+
+    
